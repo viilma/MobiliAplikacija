@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Vardas: "
+        android:textColor="@color/colorText"
+        android:layout_margin="5dp"
+        android:background="@color/colorBackground" />
+
+    <TextView
+        android:id="@+id/surname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Pavardė: "
+        android:layout_below="@+id/name"
+        android:textColor="@color/colorText"
+        android:layout_margin="5dp"
+        android:background="@color/colorBackground" />
+
+    <TextView
+        android:id="@+id/ugdymas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Ugymas:"
+        android:textColor="@color/colorText"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/name"
+        android:layout_alignParentRight="true"
+        android:background="@color/colorBackground"/>
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="ID :"
+        android:textColor="@color/colorText"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/ugdymas"
+        android:layout_alignParentRight="true"
+        android:background="@color/colorBackground"/>
+
+    <TextView
+        android:id="@+id/grupe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Grupė"
+        android:layout_below="@+id/surname"
+        android:layout_margin="5dp"
+        android:background="@color/colorBackground"
+        android:textColor="@color/colorText"/>
+    <TextView
+        android:id="@+id/activities"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Lankomi užsiėmimai:"
+        android:layout_below="@id/grupe"
+        android:layout_margin="5dp"
+        android:background="@color/colorBackground"
+        android:textColor="@color/colorText"/>
+</RelativeLayout>

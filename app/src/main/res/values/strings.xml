@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Darželis</string>
+
+    <string name="login_label">Prisijungimas</string>
+    <string name="login">Prisijungimo vardas</string>
+    <string name="password">Slaptažodis</string>
+    <string name="btnLogin">Prisijungti</string>
+    <string name="btnRegister">Registruotis</string>
+    <string name="rememberMe">Prisiminti mane</string>
+
+    <string name="login_invalid_username">Klaidingai įvestas prisijungimo vardas</string>
+    <string name="login_invalid_password">Klaidingai įvestas slaptažodis</string>
+
+    <string name="register_label">Naujas vartotojas</string>
+    <string name="name">Vardas</string>
+    <string name="email">El.paštas</string>
+
+    <string name="btnAdd">PRIDĖTI</string>
+
+    <string name="ankstyvasis">Ankstyvasis</string>
+    <string name="ikimokyklinis">Ikimokyklinis</string>
+    <string name="priesmokyklinis">Priešmokyklinis</string>
+
+    <string name="basketball">Krepšinis</string>
+    <string name="football">Futbolas</string>
+    <string name="dances">Šokiai</string>
+    <string name="karate">Karate</string>
+    <string name="ceramics">Keramika</string>
+
+
+
+    <string name="search_label">Paieška</string>
+    <string name="new_entry_label">Įrašo kūrimas</string>
+    <string name="entry_update_label">Įrašo redagavimas</string>
+
+
+</resources>
